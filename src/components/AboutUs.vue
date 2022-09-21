@@ -9,7 +9,7 @@
                             Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem
                             quibibendum auci elit cons equat ipsutis sem nibh id elit.
                         </p>
-                        <img class="w-100 p-3" src="../assets/images/service1.jpg" alt="School about" />
+                        <img class="w-100 p-3" src="../assets/images/Team-3_bea.png" alt="School about" />
                     </div>
                 </div>
                 <div class="col-md-6">

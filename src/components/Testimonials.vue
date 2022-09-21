@@ -1,7 +1,7 @@
 <template>
     <section id="testimonials" class="testimonials">
         <div class="container pt-5 pb-5">
-            <h1 class="section-title">What’s Our Customer Say</h1>
+            <h1 class="section-title">LOREM IPSUM</h1>
             <div class="owl-carousel owl-theme carousel-testimonials">
                 <div class="item testimonial">
                     <img class="transition" src="../assets/images/parent1.png" alt="testimonial detail">
@@ -46,6 +46,6 @@ export default {
 
 <style>
 .testimonials {
-    background-image: url('../assets/images/testimonials.jpg');
+    background-image: url('http://www.amcham-shanghai.org/sites/default/files/2017-01/auto-industry1.jpg');
 }
 </style>
