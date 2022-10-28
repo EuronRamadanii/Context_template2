@@ -10,22 +10,21 @@
         </div>
       </transition>
     </div>
-    <div>
+    <!-- <div>
       <Navigation />
-    </div>
+    </div> -->
     <Corusel />
     <AboutUs />
     <Services />
     <Projects />
     <Testimonials />
-    <div class="team">
+    <!-- <div class="team">
       <TeamCard />
       <TeamCard />
       <TeamCard />
       <TeamCard />
-    </div>
+    </div> -->
     <Contact />
-    <Footer />
   </div>
 </template>
 

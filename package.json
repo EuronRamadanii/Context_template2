@@ -10,9 +10,10 @@
     "bootstrap": "^5.2.1",
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.8.3",
+    "firebase": "^9.12.1",
     "vue": "^2.7.10",
     "vue-router": "^3.5.1",
-    "vuetify": "^2.6.10",
+    "vuetify": "^2.6.12",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
@@ -22,7 +23,7 @@
     "@vue/cli-service": "~5.0.0",
     "deepmerge": "^4.2.2",
     "sass": "~1.32",
-    "sass-loader": "^13.0.2",
+    "sass-loader": "^13.1.0",
     "vue-template-compiler": "^2.6.14"
   }
 }

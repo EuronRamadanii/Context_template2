@@ -1,9 +1,9 @@
 <template>
     <nav id="navbar" class="navbar navbar-expand-sm">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="../assets/images/contextLogo.png" alt="logo detail" />
-            </a>
+            <router-link class="navbar-brand" to="/">
+                <h1 style="color: white">Logo</h1>
+            </router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main">
                 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
             </button>
@@ -15,7 +15,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
@@ -23,7 +23,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

@@ -16,59 +16,17 @@
 
 <template>
     <div class="ttt">
-        <h1>Lorem Ipsum</h1>
+        <h1>LOREM IPSUM</h1>
+        <div class="buttons">
+            <router-link to="/login">
+                <v-btn class="logIn" elevation="2">Log in</v-btn>
+            </router-link>
+            <router-link to="/signUp">
+                <v-btn elevation="2">Sign Up</v-btn>
+            </router-link>
+
+        </div>
     </div>
-    <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="../assets/images/slide1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="../assets/images/slide2.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="../assets/images/slide3.jpg" alt="Third slide">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div> -->
-    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="../assets/images/slide1.jpg" alt="Los Angeles">
-            </div>
-
-            <div class="item">
-                <img src="../assets/images/slide2.jpg" alt="Chicago">
-            </div>
-
-            <div class="item">
-                <img src="../assets/images/slide3.jpg" alt="New York">
-            </div>
-        </div>
-
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div> -->
 </template>
   
 <script>
@@ -95,12 +53,27 @@
 
 <style scoped>
 .ttt {
-    background-image: url('../assets/images/slide1.jpg');
+    background: rgb(178, 173, 173);
     padding-top: 1000px;
 }
 
 .ttt h1 {
     text-align: center;
-    color: white
+    color: white;
+    width: center;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+}
+
+.buttons {
+    position: absolute;
+    left: 45%;
+    top: 85%;
+
+}
+
+.logIn {
+    margin-right: 5px;
 }
 </style>

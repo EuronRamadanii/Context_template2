@@ -1,18 +1,15 @@
 <template>
   <div>
-
-    <div id="nav">
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-      <Home />
-    </div>
+    <Navbar />
     <router-view />
+    <Footer />
   </div>
 </template>
 <script>
-import Home from "./views/Home.vue";
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 export default {
-  components: { Home },
+  components: { Navbar, Footer },
   // mounted() {
   // 	AOS.init()
   // },
